@@ -1,7 +1,0 @@
-/* a red background, white text, a font size of 32px, center aligned, and bold*/
-.external{
-    background-color:red ;
-    color: white;
-    font: 32px bold;
-    text-align: center;
-}
