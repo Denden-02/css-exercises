@@ -1,27 +1,49 @@
+/* DDCFB - G - 'DDC-FB (Disconnect-Facebook - Gagovernment)
+(Display, Dimension, Color, Font, Borders, Governing) 
+Governing: Specificity, Inheritance, Rule Order
+ */
+
 body {
+  /* display:flex; */
+  width: auto;
   background: #eee;
   font-family: sans-serif;
 }
 
 .card {
-  width: 400px;
+  max-width: 700px;
   background: #fff;
-  margin: 16px auto;
+  margin: 0 auto;
+  padding: 12px;
 }
 
 .title {
+  /* display: block; */
+  font-size: 30px;
   background: #e3f4ff;
+  padding: 20px;
+  margin-bottom: 16px;
 }
 
 .content {
+  font-size: 28px;
   background: #e3f4ff;
+  padding: 30px 10px;
+  margin-bottom: 16px;
 }
 
 .button-container {
+  text-align: center;
+  padding: 30px;
   background: #e3f4ff;
+  font-size: 28px;
 }
 
 button {
+  display: block;
+  margin: auto;
+  font-size: 25px;
+  padding: 10px 45px;
   background: white;
   border: 1px solid #eee;
 }
